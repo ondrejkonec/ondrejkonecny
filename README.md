@@ -1,6 +1,7 @@
 # Personal website
 
 My personal website build based on Astro, with source code hosted on GitHub, hosted by Netlify.
+
 ## Project Structure
 
 Inside this project, you'll see the following folders and files:
