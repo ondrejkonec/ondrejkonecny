@@ -4,13 +4,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "About Me";
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Ondřej",
+  country: "Czech Republic",
+  occupation: "Designer & Engineer",
+  hobbies: ["hiking", "jazz music", "visiting galleries", "running", "cycling", "swimming"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Svelte"];
 
 const happy = true;
 const finished = true;
@@ -28,7 +28,7 @@ const goal = 3;
         identity.hobbies.length >= 2 && (
           <li>
             Two of my hobbies are: {identity.hobbies[0]} and{" "}
-            {identity.hobbies[1]}
+            {identity.hobbies[1]}.
           </li>
         )
       }
