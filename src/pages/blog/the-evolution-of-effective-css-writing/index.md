@@ -21,20 +21,20 @@ This [archived e-mail communication](http://1997.webhistory.org/www.lists/www-ta
 In the mid-1990s, when the first websites began to appear, differentiating from the default browser display settings was a real challenge. At a time when cascading styles were still being tested, it was only possible to modify the design using HTML attributes. However, the first web browsers like ViolaWWW did not allow you to adjust the visual appearance almost at all.
 
 ## What came before CSS
-In the 1990s, website designers began to make the first attempts at what we now call web design. A common example of a 90's site is the Space Jam site. The site of the famous WarnerBros animated film is still online in its original state after 24 years; it is still possible to go through and explore it.
+In the 1990s, website designers began to make the first attempts at what we now call web design. A common example of a 90's site is the [Space Jam site](https://www.spacejam.com/1996/). The site of the famous WarnerBros animated film is still online in its original state after 24 years; it is still possible to go through and explore it.
 
 It is interesting to see on this website how color and text differentiation was approached in this era and how the layout was organized. All colors are defined in the body of the page, where the creators set the basic rules for the display using HTML attributes. Specifically, the attributes bgcolor, text, link, vlink and alink. The attributes defined in this way then made it possible to display the colors of texts, links, and backgrounds differently.
 
 Another nice example on this site is the layout. At the time, it was modified only with the help of one or more embedded tables. This technique was then used for several more years to create all web document layouts.
 
-First for the circular layout at the time (example of the Space Jam website) and then for the Holy Grail Layout, which has been a trend in web design for many years. This spreadsheet technique is still recommended today for creating newsletters and PDFs generated using HTML, because many e-mail clients simply did not choose to change their systems.
+First for the circular layout at the time (example of the Space Jam website) and then for the [Holy Grail Layout](https://alistapart.com/article/holygrail/), which has been a trend in web design for many years. This spreadsheet technique is still recommended today for creating newsletters and PDFs generated using HTML, because many e-mail clients simply did not choose to change their systems.
 
 This example shows how designers came to the result of this circular layout, which was popular at the time. Companies wanted to differentiate themselves from the competition, and so the first attempts were made to change the default visual settings.
 
 Placing images in a circular layout was then achieved again using the attributes of tables (specifically align and valign) and also using the HTML tags br. This was the basis of web design for several years.
 
 ## The arrival of CSS
-The advent of cascading styles was revolutionary at the time. In 1998, Eric Meyer and his team began to describe how it is possible to implement and use cascading styles. Over time, CSS made its way to the first website and soon became the standard for website design.
+The advent of cascading styles was revolutionary at the time. In 1998, Eric Meyer and his team [began to describe](https://meyerweb.com/eric/articles/webrev/199805.html) how it is possible to implement and use cascading styles. Over time, CSS made its way to the first website and soon became the standard for website design.
 
 In the beginning, it was a great revolution. There was no need to rewrite the attribute values on all pages to change the title color; one small change in cascading styles was enough. This was a great time-saving breakthrough for developers everywhere. 
 
@@ -105,3 +105,59 @@ This rule means that you never put HTML elements in selectors. In the event of a
 #### Content and container department
 This rule says that you should write selectors, regardless of the location on the page, to make them as useful as possible across the web document. In fact, it tells us to simply avoid the following selectors.
 
+### SMACSS
+Scalable and Modular Architecture for CSS is a methodology and [book of the same name](https://smacss.com/) by [Jonathan Snook](https://snook.ca/). The main idea of SMACSS is to categorize the CSS rules system.
+
+#### Base
+This category includes basic settings for HTML element rules. This includes standardization and basic settings.
+
+#### Layout
+This layer includes dimensional declarations.
+
+#### Module
+This is a layer for what we call reusable components. Declarations of buttons, sidebars, menus, etc. can be found here.
+
+#### State
+A state is something that augments and overrides all other styles. These are JavaScript dependencies that can apply to layout and/or module styles too.
+
+#### Theme
+This layer is optional and belongs to a separate file. This is a list of rules that change the visual appearance if you want to create a different identity for your application.
+
+### BEM
+BEM is a methodology for writing CSS, backed by developers from Russian corporations. BEM stands for Block Element Modifier, which summarizes the naming convention used and the overall approach to the organization.
+
+The main benefit of this naming convention is that the selectors of the lowest specificity are created, and due to the uniqueness of their naming, no conflicts arise. BEM is also practical to use when working on a larger team of developers because its structure is simple and easy to understand.
+
+There are many articles on the BEM methodology, but I recommend the article [Combining the Powers of SEM and BIO for Improving CSS](https://css-tricks.com/combining-the-powers-of-sem-and-bio-for-improving-css/), where author [Ryan Yu](https://ryanyu.com/) describes the problems with the basic BEM notation.
+
+### ITCSS
+ITCSS, or Inverted Triangle CSS, is an architecture created by [Harry Roberts](https://csswizardry.com/) that helps organize CSS files according to certain rules. Thanks to ITCSS, you can achieve the correct classification, which allows you to write meaningful and long-term sustainable style sheets.
+
+This style organization is best suited for work on larger projects and also for working on a team where more developers write CSS. The structure itself requires other principles and methodologies to function, but as a basis for good maintenance of files, is excellent. That being said, this architecture also works on even the smallest projects and makes sense to use anywhere.
+
+The basic idea is to rank selectors according to a specificity that less experienced developers often struggle with. The structure is divided into 7 categories according to specificity and can be expanded and modified as needed. The basic division in the project can then have this structure.
+
+#### Settings
+Space for preprocessors with variables such as colors, design tokens, typography, grid.
+
+#### Tools
+Layer with mixins, functions, media queries.
+
+#### Generic
+Here we insert styles for third party libraries such as normalize, reset or any others
+
+#### Elements
+Selectors for bare HTML elements such as h1, p, article, a.
+
+#### Objects
+Class definitions for layout, grid, indentation - reusable non-decorative styles.
+
+#### Utilities
+Class utilities that are designed to affect one particular CSS property and are in most cases written with the utmost importance. Utilities and helper classes with ability to override anything which goes before in the triangle.
+
+This methodology is much more thorough and I recommend studying it before using it. Many people understand this organizational structure inaccurately and will lose the huge benefits that ITCSS offers.
+
+## Wrapping up
+CSS has undergone a long development and thanks to continuous improvement (from the most experienced developers in the field) it still manages to improve and develop its functionality and capabilities. It thus holds a stable position next to its competition for the development of web documents and applications.
+
+With the right methodologies, architectures, and good language skills, you can create structured notations that are easy to write, maintain, and extend.
