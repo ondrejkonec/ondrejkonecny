@@ -93,3 +93,15 @@ This extreme dependency between the HTML structure makes the code be especially 
 To address the inherent complexity of CSS, various types of best practices and techniques have been introduced to help you create meaningful, sustainable, and extensible code for the design of your websites and applications.
 
 For most web design needs, there is more than one way to approach a problem. There are four methods that stand out among others when considering how to structure code and name classes.
+
+### OOCSSS
+In 2008, [Nicole Sullivan](https://www.stubbornella.org/) borrowed an object-oriented design concept to provide structure to CSS. She presented her OOCSS concept at the Web Directions North lecture.
+
+In short, this methodology defines a CSS object as a visual pattern that can be used throughout the site. It serves as a guideline when designing reusable code that is more editable and sustainable. OOCSS has several rules that must be followed. However, this methodology is based on two rules.
+
+#### Department of appearance and structure
+This rule means that you never put HTML elements in selectors. In the event of a change, the code must then be modified in two places.
+
+#### Content and container department
+This rule says that you should write selectors, regardless of the location on the page, to make them as useful as possible across the web document. In fact, it tells us to simply avoid the following selectors.
+
