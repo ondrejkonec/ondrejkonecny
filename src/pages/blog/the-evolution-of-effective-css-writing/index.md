@@ -3,7 +3,7 @@ layout: ../../../layouts/MarkdownPostLayout.astro
 
 title: 'The evolution of effective CSS writing'
 pubDate: 2022-07-01
-description: 'This is the first post of my blog.'
+description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
 author: 'Ondřej Konečný'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
