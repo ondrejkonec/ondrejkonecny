@@ -13,7 +13,7 @@ html.dark {
 
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 body {
@@ -21,6 +21,8 @@ body {
   width: 100%;
   max-width: 80ch;
   padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
   line-height: 1.5;
 }
 
