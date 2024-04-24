@@ -1,9 +1,36 @@
 ---
 ---
-<div class="nav-links">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/blog">Blog</a>
-  <a href="/projects/">Projects</a>
-  <a href="/tags/">Tags</a>
-</div>
+<nav class="nav" aria-label="Menu">
+  <a class="nav__item nav__home" href="/" aria-label="go to homepage">Ondřej Konečný</a>
+  <a class="nav__item" href="/">Home</a>
+  <a class="nav__item" href="/about">About</a>
+  <a class="nav__item" href="/tags/">Tags</a>
+</nav>
+
+<style>
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .nav__item {
+    color: #121212;
+    line-height: 1;
+    letter-spacing: .75px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px;
+  }
+  .nav__item:first-child {
+    padding-left: 0;
+  }
+  .nav__home {
+    font-size: 21px;
+    color: #121212;
+    margin-right: 2.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+</style>

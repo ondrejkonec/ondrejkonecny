@@ -1,10 +1,27 @@
 ---
 import Navigation from './Navigation.astro';
-import ThemeIcon from './ThemeIcon.astro';
+import ThemeSwitcher from './ThemeSwitcher.astro';
 ---
-<header>
-  <nav>
-    <ThemeIcon />
-    <Navigation />
-  </nav>
+<header class="header">
+  <Navigation />
+  <ThemeSwitcher />
 </header>
+
+<style> 
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95vw;
+    margin-inline: auto;
+    height: 80px;
+  }
+  .header__logo {
+    font-size: 21px;
+    color: #121212;
+    margin-right: 3.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+</style>

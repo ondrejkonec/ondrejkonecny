@@ -4,7 +4,9 @@
 }
 
 html {
+  box-sizing: border-box;
   font-size: 18px; /* root font size */
+  letter-spacing: -0.015em;
   scroll-behavior: smooth;
   counter-reset: figure;
   -webkit-tap-highlight-color: transparent;
@@ -13,7 +15,9 @@ html {
 body {
   font-family: var(--font-family-sans);
 
-  background-color: #f1f5f9;
+  background-color: #fff;
+  /* background-color: #f1f5f9; */
+  /* color: #121212; */
 
   width: 100%;
   margin: 0 auto;
@@ -46,29 +50,6 @@ nav a {
 }
 
 /* nav styles */
-
-.nav-links {
-  width: 100%;
-  top: 5rem;
-  left: 48px;
-  background-color: #ff9776;
-  margin: 0;
-}
-
-.nav-links a {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  background-color: #ff9776;
-}
 
 @media screen and (min-width: 636px) {
   .nav-links {
