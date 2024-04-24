@@ -18,8 +18,10 @@ body {
   background-color: #fff;
   /* background-color: #f1f5f9; */
   /* color: #121212; */
-
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
