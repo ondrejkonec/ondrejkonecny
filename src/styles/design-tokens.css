@@ -1,0 +1,40 @@
+/*====================================*\
+  Design Tokens
+
+  Design tokens — or tokens, for short — are design decisions, translated into data.   Design token represent small, repeatable visual design decision and they act as a single source of truth.
+  They’re ultimately a communication tool: a shared language between design and engineering for communicating detailed information about how to build user interfaces.
+\*====================================*/
+
+/**
+ * 01. Core tokens
+ * 02. Semantic tokens
+ * 03. Component tokens
+ */
+
+/* ========================================================================= *\
+ * 01. Core tokens
+
+  Core tokens are primitive values (static values like color HEX code, font size, spacing, etc.).
+  They can either be directly used or referenced by other token types (alias/semantic or component-specific)
+
+	Types can be Singular & Composite based W3C community draft https://tr.designtokens.org/format/#type-1
+\* ========================================================================= */
+
+  :root {
+  /* COLORS */
+  /* TYPOGRAPHY */
+
+	/* Font Family */
+	--font-family-sans: 'Inter', sans-serif;
+	--font-family-code: monospace;
+	--font-family-system: '-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol';
+
+  /* Font Size */
+  /* Font Weight */
+  /* Line Height */
+  /* Letter Spacing */
+  
+  /* SPACING */
+
+  /* BORDER RADIUS */
+}
