@@ -1,17 +1,18 @@
 ---
+import ThemeSwitcher from './ThemeSwitcher.astro';
 ---
 <nav class="nav" aria-label="Menu">
-  <a class="nav__item nav__home" href="/" aria-label="go to homepage">Ondřej Konečný</a>
   <a class="nav__item" href="/">Home</a>
   <a class="nav__item" href="/about">About</a>
   <a class="nav__item" href="/tags/">Tags</a>
+  <ThemeSwitcher class="fuck" />
 </nav>
 
 <style>
   .nav {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
   }
   .nav__item {
     color: #121212;
@@ -20,15 +21,6 @@
     text-decoration: none;
     font-weight: 500;
     padding: 8px;
-  }
-  .nav__item:first-child {
-    padding-left: 0;
-    margin-right: 2.2rem;
-  }
-  .nav__home {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
   }
 
 </style>
