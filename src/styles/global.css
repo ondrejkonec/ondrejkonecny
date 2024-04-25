@@ -27,7 +27,7 @@ body {
 
 ::selection {
   /* @TODO Update color token */
-  background-color: black;
+  background-color: red;
 }
 
 
