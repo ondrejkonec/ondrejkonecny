@@ -13,10 +13,10 @@
       </p>
       <section class="footer__socials">
         <a class="footer__link" href="https://github.com/ondrejkonec">GitHub</a>
-        <a class="socials__link" href="https://codepen.io/ondrejko">CodePen</a>
-        <a class="socials__link" href="https://twitter.com/ondrejkonec">Twitter</a
+        <a class="footer__link" href="https://codepen.io/ondrejko">CodePen</a>
+        <a class="footer__link" href="https://twitter.com/ondrejkonec">Twitter</a
         >
-        <a class="socials__link" href="https://www.linkedin.com/in/ondrejkonec"
+        <a class="footer__link" href="https://www.linkedin.com/in/ondrejkonec"
           >LinkedIn</a
         >
       </section>
@@ -27,11 +27,14 @@
 <style>
   .footer {
     color: white;
-    padding: 2em 0;
+    padding: 2rem 0;
     background-color: #121212;
   }
   .footer__wrapper {
-    max-width: 1025px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1200px;
     margin-inline: auto;
   }
   .footer__content {
@@ -40,5 +43,16 @@
     align-items: center;
     flex-direction: row;
     gap: 1.2rem;
+  }
+  .footer__info {
+    margin: 0;
+  }
+  .footer__socials {
+    display: flex;
+    gap: 1.7rem;
+  }
+  .footer__link {
+    color: #fff;
+    text-decoration: none;
   }
 </style>

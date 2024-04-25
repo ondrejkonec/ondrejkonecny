@@ -1,23 +1,19 @@
 *, *::before, *::after {
   box-sizing: inherit;
-  -webkit-font-smoothing: antialiased;
 }
 
 html {
   box-sizing: border-box;
-  font-size: 18px; /* root font size */
+  font-size: 21px; /* root font size */
   letter-spacing: -0.015em;
   scroll-behavior: smooth;
   counter-reset: figure;
-  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   font-family: var(--font-family-sans);
 
   background-color: #fff;
-  /* background-color: #f1f5f9; */
-  /* color: #121212; */
   display: flex;
   flex-direction: column;
   width: 100%;
