@@ -23,6 +23,7 @@ const { pageTitle } = Astro.props;
     
   </head>
   <body>
+    <a href="#main" class="skip-to-content">Skip to content</a>
     <Header />
     <main id="main">
       <h1>{pageTitle}</h1>
@@ -34,11 +35,30 @@ const { pageTitle } = Astro.props;
 
 <style>
   main {
-    margin-top: 80px;
     max-width: 1200px;
     margin-inline: auto;
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 0;
+    padding: 2.5rem 0; 
   }
+
+  /* Screen readers skip */
+.skip-to-content {
+  padding: 0.8rem 3.2rem;
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  clip: rect(0 0 0 0);
+  z-index: 10;
+  background-color: #121212;
+  color: white;
+  outline: 0;
+  border: 2px solid white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.skip-to-content:focus {
+  clip: unset;
+}
 </style>

@@ -1,3 +1,19 @@
+@charset "UTF-8";
+
+/*====================================*\
+  CSS Structure
+\*====================================*/
+
+/**
+ * 00. TBD
+ */
+
+ /* ========================================================================= *\
+ * 00. TBD
+ * 
+ * Lorem ipsum lorem ipsum lorem ipsum.
+\* ========================================================================= */
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -8,17 +24,21 @@ html {
   letter-spacing: -0.015em;
   scroll-behavior: smooth;
   counter-reset: figure;
+  background-color: #fff;
 }
 
 body {
   font-family: var(--font-family-sans);
 
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
+}
+
+a {
+  color: #004fb4
 }
 
 ::selection {
@@ -34,27 +54,11 @@ html.dark {
   color: #fff;
 }
 
-.dark .nav-links a {
-  color: #fff;
-}
-
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
 
 @media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
 
 }
