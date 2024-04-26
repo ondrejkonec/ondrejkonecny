@@ -43,12 +43,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-nav a {
-  padding-right: .75rem;
-}
-
-/* nav styles */
-
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
