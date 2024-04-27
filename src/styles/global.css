@@ -5,11 +5,12 @@
 \*====================================*/
 
 /**
- * 00. TBD
+ * 00. Global
+   01. Utility-first classes
  */
 
  /* ========================================================================= *\
- * 00. TBD
+ * 00. Global
  * 
  * Lorem ipsum lorem ipsum lorem ipsum.
 \* ========================================================================= */
@@ -61,4 +62,32 @@ h1 {
 
 @media screen and (min-width: 636px) {
 
+}
+
+/* ========================================================================= *\
+ * 02. Utility-Fist classes
+ * 
+ * TBD.
+\* ========================================================================= */
+
+/* Completely hide content from view and from screenreaders */
+.u-hide {
+  display: none !important;
+}
+
+/* Hide content from view, but leave it accessible to screenreaders. http://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+.u-hide-visually {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
