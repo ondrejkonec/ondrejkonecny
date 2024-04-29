@@ -2,17 +2,28 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 
 title: 'The evolution of effective CSS writing'
-pubDate: 2022-07-01
-upDate: 2024-07-01
+pubDate: 2022-01-01
+upDate: 2024-04-28
 description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
-author: 'Ondřej Konečný'
-image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["post"]
+tags: ["post", "lol"]
 ---
 
 How do you work effectively with CSS so that you feel comfortable with every modification? In this article, you will find a very brief overview of the development of CSS writing and description of the most common problems.
+
+```ts
+console.log('Not highlighted')
+console.log('Highlighted') // [!code highlight]
+console.log('Not highlighted')
+```
+
+```css
+	/* Font Family */
+	--font-family-sans: 'Inter', sans-serif;
+	--font-family-code: monospace;
+    .lol {
+        color: rgba(100,13,42)
+    }
+```
 
 ## A little history
 In 1994, Håkon Wium Lie realized that there was a need to create a language that would create ways to visually edit documents on the web. The main idea was based on the need to separate the content from the presentation. Lie, together with other designers, created the first version of CSS, which over time was implemented by all browsers. After HTML, CSS became the second standardized language for W3.
