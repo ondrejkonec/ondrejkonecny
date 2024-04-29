@@ -2,12 +2,11 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 const allPosts = await Astro.glob("../pages/blog/*/*md");
-const pageTitle = null;
+const pageTitle = 'Homepage';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <!-- <h2>Hi, I’m Ondřej. Designer based in Prague, Czech Republic. Currently working at CloudTalk.</h2> -->
-  <h1 class="screen-reader-only">Homepage</h1>
+  <!-- <h1 class="screen-reader-only">Homepage</h1> -->
   <div class="hp-intro">
     <img
       src="/profile-picture.png"
