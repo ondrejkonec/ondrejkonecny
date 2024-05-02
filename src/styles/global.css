@@ -59,6 +59,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+.astro-code {
+  padding: 24px;
+}
+
 @media screen and (min-width: 636px) {
 
 }
