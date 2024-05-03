@@ -55,8 +55,22 @@ html.dark {
 }
 
 h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 52px;
+}
+h2 {
+  font-size: 44px
+}
+h3 {
+  font-size: 36px
+}
+h4 {
+  font-size: 30px
+}
+h5 {
+  font-size: 25px
+}
+.small-text {
+  
 }
 
 .astro-code {
