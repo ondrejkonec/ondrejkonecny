@@ -70,7 +70,10 @@ h5 {
   font-size: 25px
 }
 .small-text {
-  
+  font-size: 18px
+}
+.tiny-text {
+  font-size: 15px;
 }
 
 .astro-code {
