@@ -17,7 +17,8 @@
   Core tokens are primitive values (static values like color HEX code, font size, spacing, etc.).
   They can either be directly used or referenced by other token types (alias/semantic or component-specific)
 
-	Types can be Singular & Composite based W3C community draft https://tr.designtokens.org/format/#type-1
+	Types can be Singular & Composite based W3C community draft:
+  https://tr.designtokens.org/format/#type-1
 \* ========================================================================= */
 
   :root {
