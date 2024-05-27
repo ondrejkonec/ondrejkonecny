@@ -56,7 +56,7 @@ html.dark {
 html.dark .nav__item,
 html.dark .web-controls svg,
 html.dark .header__logo {
-  color: #fff;
+  color: #fff!important;
 }
 h1 {
   font-size: 52px;
