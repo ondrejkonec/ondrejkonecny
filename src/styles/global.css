@@ -53,7 +53,11 @@ html.dark {
   background-color: #0d0950;
   color: #fff;
 }
-
+html.dark .nav__item,
+html.dark .web-controls svg,
+html.dark .header__logo {
+  color: #fff;
+}
 h1 {
   font-size: 52px;
 }
