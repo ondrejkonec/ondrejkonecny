@@ -6,13 +6,25 @@ const pageTitle = null;
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <!-- <h1 class="screen-reader-only">Homepage</h1> -->
-  <div class="hp-intro">
+  <h1 class="screen-reader-only">Homepage</h1>
+  <div style="max-width: ">
     <img
       src="/profile-picture.png"
       alt="photo of me from my wedding where I look happy"
     />
-    <p>
+    <p class="lead">
+      Hey! I’m Ondřej and I like to build software and exploring Web technologies.</p>
+      <p>You can find me designing user interfaces or coding what I designed. This means that my work involves a
+      lot of HTML, CSS, and JavaScript (and its frameworks), but I&nbsp;also use design tools and methodologies on daily basis. I'm currently based in Prague, Czech
+      Republic and working remotely for <a href="https://www.cloudtalk.io/"
+        >CloudTalk</a
+      >. You can easily email me at <a href="mailto:ondrej.konecny@gmail.com"
+        >ondrej.konecny@gmail.com</a
+      > or&nbsp;get in touch via <a href="https://twitter.com/ondrejkonec">Twitter</a> or <a
+        href="https://linkedin.com//in/ondrejkonec">LinkedIn</a
+      >.
+    </p>
+    <!-- <p>
       Hi, I’m Ondřej and I enjoy exploring Web technologies. You can find me designing user interfaces or coding what I designed. This means that my work involves a
       lot of HTML, CSS, and JavaScript (and its frameworks), but I also use design tools and methodologies on daily basis. I'm currently based in Prague, Czech
       Republic and working remotely for <a href="https://www.cloudtalk.io/"
@@ -22,7 +34,7 @@ const pageTitle = null;
       > or&nbsp;get in touch via <a href="https://twitter.com/ondrejkonec">Twitter</a> or <a
         href="https://linkedin.com//in/ondrejkonec">LinkedIn</a
       >.
-    </p>
+    </p> -->
   </div>
 
   <h2>Blog</h2>
@@ -46,9 +58,16 @@ const pageTitle = null;
     padding-left: 20px;
     margin-right: -90px;
   }
+  p.lead {
+    font-weight: 700;
+    line-height: 1.383;
+    font-size: 35px;
+    max-width: 900px;
+  }
   p {
-    font-size: 27px;
+    font-size: 21px;
     line-height: 1.598;
     hyphens: auto;
+    max-width: 710px;
   }
 </style>
