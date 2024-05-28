@@ -54,7 +54,7 @@ html.dark {
   color: #fff;
 }
 html.dark .nav__item,
-html.dark .web-controls svg,
+html.dark .settings svg,
 html.dark .header__logo {
   color: #fff!important;
 }
