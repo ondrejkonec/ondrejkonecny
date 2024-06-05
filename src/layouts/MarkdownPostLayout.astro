@@ -10,7 +10,7 @@ const { frontmatter } = Astro.props;
 <p><em>{frontmatter.description}</em></p>
 <div class="tags">
   {frontmatter.tags.map((tag) => (
-    <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
+    <a class="tag" href={`/tags/${tag}`}>{tag}</a>
   ))}
 </div>
 <slot />
@@ -32,5 +32,6 @@ const { frontmatter } = Astro.props;
     border-radius: .5em;
     padding: .5em 1em;
     background-color: #F8FCFD;
+    text-decoration: none;
   }
 </style>
