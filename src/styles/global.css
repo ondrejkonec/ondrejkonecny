@@ -42,6 +42,14 @@ a {
   color: #004fb4
 }
 
+p {
+  line-height: 1.466;
+}
+
+ul {
+  line-height: 1.466;
+}
+
 ::selection {
   /* @TODO Update color token */
 }
