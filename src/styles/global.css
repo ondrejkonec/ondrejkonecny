@@ -66,6 +66,9 @@ html.dark .settings svg,
 html.dark .header__logo {
   color: #fff!important;
 }
+html.dark a {
+  color: #5fa5ff;
+}
 h1 {
   font-size: 52px;
 }
