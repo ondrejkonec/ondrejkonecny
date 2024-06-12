@@ -2,8 +2,8 @@
 layout: ../../../layouts/MarkdownPostLayout.astro
 
 title: 'OOCSS - Object Oriented CSS'
-pubDate: 2022-01-01
-upDate: 2024-04-28
+pubDate: 2023-05-26
+upDate: 2023-05-26
 description: 'Nicole Sullivan borrowed the concept of object-oriented design to provide structure to CSS. Read about its history and&nbsp;why it is a timeless principle for the community and developers.'
 tags: ["CSS", "front-end"]
 ---

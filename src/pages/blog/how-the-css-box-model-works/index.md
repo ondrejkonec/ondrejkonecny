@@ -1,12 +1,13 @@
 ---
-title: "How the CSS box model works"
-description: "CSS Box Model is a fundamental concept that every developer dealing with web interface should be familiar with. In this article, I explain how the CSS Box Model works and what its pitfalls are."
-date: 2020-11-10
-tags:
-  - hp 
-  - post 
-layout: "layouts/blog-detail.njk"
+layout: ../../../layouts/MarkdownPostLayout.astro
+
+title: 'How the CSS box model works'
+pubDate: 2020-11-10
+upDate: 2020-11-10
+description: 'CSS Box Model is a fundamental concept that every developer dealing with web interface should be familiar with. In this article, I explain how the CSS Box Model works and what its pitfalls are.'
+tags: ["CSS", "front-end"]
 ---
+
 <nav class="toc">
   <ol>
     <li><a href="#css-box-model">CSS Box Model</a></li>

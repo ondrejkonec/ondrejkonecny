@@ -1,12 +1,13 @@
 ---
-title: "The basic structure of design systems"
-description: "Explanation of the design system and overview of its parts. When is it reasonable to think about creating a design system? And when, on the other hand, is it better to choose a different approach?"
-date: 2021-02-14
-tags:
-  - hp
-  - post  
-layout: "layouts/blog-detail.njk"
+layout: ../../../layouts/MarkdownPostLayout.astro
+
+title: 'The basic structure of design systems'
+pubDate: 2021-02-14
+upDate: 2021-02-14
+description: 'Explanation of the design system and overview of its parts. When is it reasonable to think about creating a design system? And when, on the other hand, is it better to choose a different approach?'
+tags: ["CSS", "front-end"]
 ---
+
 <nav class="toc">
 <ol>
   <li><a href="#history">History</a></li>
