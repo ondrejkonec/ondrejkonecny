@@ -5,7 +5,7 @@ title: 'The evolution of effective CSS writing'
 pubDate: 2022-01-01
 upDate: 2024-04-28
 description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
-tags: ["post", "lol"]
+tags: ["CSS", "front-end"]
 ---
 
 How do you work effectively with CSS so that you feel comfortable with every modification? In this article, you will find a very brief overview of the development of CSS writing and description of the most common problems.
