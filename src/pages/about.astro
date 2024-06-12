@@ -3,34 +3,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About Me";
 
-const identity = {
-  hobbies: ["running", "jazz music", "hiking", "cycling", "visiting galleries", "swimming"],
-};
-
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Svelte"];
-
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p>Hey! I’m Ondřej and I'm a designer and developer. I love exploring web technologies and enjoy working on the border between design and engineering. My work involves a lot of HTML, CSS, and JavaScript, but I also have plenty of experience with design tools and methodologies. I'm currently based in Prague, Czech Republic and working remotely for <a href="">CloudTalk</a>. You can easily email me at <a href="mailto:ondrej.konecny@gmail.com">ondrej.konecny@gmail.com</a> or get in touch via <a href="https://twitter.com/">Twitter</a> or <a href="https://linkedin.com//in/ondrejkonec">LinkedIn</a>.</p>
-    <p>I've been an sawmill worker, musician, qa engineer, a programmer, developer and a designer.</p>
+  <p>I am a designer and front-end developer living on the edge of design and frontend disciplines. I responsible for the quality of frontend implementation and a broader connection to the core layer of the design system. I focus on clean and pixel perfect interaction design.</p>
     <p>Here are a few facts about me:</p>
     <ul>
-      <li>I like dealing with every detail of user interface.</li>
-      <li>I have maker’s attitude.</li>
-      <li>I study jazz music.</li>
-      <li>I like to run.</li>
-      {
-        identity.hobbies.length >= 2 && (
-          <li>
-            Two of my hobbies are: {identity.hobbies[0]} and{" "}
-            {identity.hobbies[1]}.
-          </li>
-        )
-      }
+      <li>I have maker’s attitude</li>
+      <li>I studied jazz music</li>
+      <li>I like to run</li>
     </ul>
-    <p>My core skills are:</p>
-    <ul>
-      {skills.map((skill) => <li class="skill">{skill}</li>)}
-    </ul>
+    <p>I've been an sawmill worker, musician, qa engineer, a programmer, developer and a designer.</p>
   </BaseLayout>
