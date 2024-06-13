@@ -47,7 +47,7 @@ p {
 }
 
 ul {
-  line-height: 1.466;
+  line-height: 1.766;
 }
 
 ::selection {
@@ -83,16 +83,6 @@ h4 {
 }
 h5 {
   font-size: 25px
-}
-.small-text {
-  font-size: 18px
-}
-.tiny-text {
-  font-size: 15px;
-}
-
-.astro-code {
-  padding: 24px;
 }
 
 @media screen and (min-width: 636px) {
