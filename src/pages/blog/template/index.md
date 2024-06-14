@@ -1,10 +1,10 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
 
-title: 'The evolution of effective CSS writing'
+title: 'Template'
 pubDate: 2022-01-01
 upDate: 2024-04-28
-description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
+description: 'Template Description'
 tags: ["CSS", "front-end"]
 ---
 

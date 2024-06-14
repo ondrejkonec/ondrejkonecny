@@ -50,8 +50,8 @@ ul {
   line-height: 1.766;
 }
 
-::selection {
-  /* @TODO Update color token */
+code {
+  color: chocolate;
 }
 
 
