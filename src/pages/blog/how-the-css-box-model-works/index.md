@@ -94,17 +94,19 @@ The element's border is located between the area of the inner edge (`padding`) a
 
 The border also has many definitions which can change its appearance.
 
-<pre class="language-css" tabindex="-1">
-<code class="language-css">
-border: 0.5rem outset pink;
-border: 4mm ridge rgba(211, 220, 50, .6);
-border-width: 5pt dashed #ffcc00;
-border-left-width: 4em;
-border-bottom-style: none;
-border-right-color: oklch(59.69% 0.156 49.77 / .5);
-`
-</pre>
-<p>The border-box property is used to frame an element visually. Its color, size, and style can be controlled using `border` and related properties such as `border-color`, `border-width` or `border-style`.</p>
+```css
+.border {
+  border: 0.5rem outset pink;
+  border: 4mm ridge rgba(211, 220, 50, .6);
+  border-width: 5pt dashed #ffcc00;
+  border-left-width: 4em;
+  border-bottom-style: none;
+  border-right-color: oklch(59.69% 0.156 49.77 / .5);
+}
+```
+
+The border-box property is used to frame an element visually. Its color, size, and style can be controlled using `border` and related properties such as `border-color`, `border-width` or `border-style`.
+
 <div class="code-example" loading="lazy">
 <p class="codepen" data-height="600" data-default-tab="result" data-slug-hash="xxQEEoQ" data-user="ondrejko">
   <span>See the Pen <a href="https://codepen.io/ondrejko/pen/xxQEEoQ">
@@ -113,22 +115,28 @@ border-right-color: oklch(59.69% 0.156 49.77 / .5);
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
-<h3 id="margin-box-overview">Margin box</h3>
-<p>The area of the outer margin expands the space around the element outside the border. This empty space separates one element from another.</p>
+
+### Margin box
+
+The area of the outer margin expands the space around the element outside the border. This empty space separates one element from another.
+
 <figure>
-  <img src="box-model-margin.svg" alt="">
-</figure>
-<p>The margin also **offers several options** for manipulating the layout.</p>
-<pre class="language-css" tabindex="-1">
-<code class="language-css">
-margin: -3px;
-margin: 5% auto;
-margin: 2px 1.6em 0 auto;
-margin-block-start: 10px;
-margin-inline-start: revert-layer;
-margin-inline: 20ch -40vh;
-`
-</pre>
+
+![Box Model - Margin](./box-model-margin.svg "Box Model - Margin")
+
+The margin also **offers several options** for manipulating the layout.
+
+```css
+.margin {
+  margin: -3px;
+  margin: 5% auto;
+  margin: 2px 1.6em 0 auto;
+  margin-block-start: 10px;
+  margin-inline-start: revert-layer;
+  margin-inline: 20ch -40vh;
+}
+```
+
 <div class="code-example" loading="lazy">
 <p class="codepen" data-height="600" data-default-tab="result" data-slug-hash="YzRGREx" data-user="ondrejko">
   <span>See the Pen <a href="https://codepen.io/ondrejko/pen/YzRGREx">
@@ -137,32 +145,20 @@ margin-inline: 20ch -40vh;
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
-<h3 id="summary-of-differences">Summary of differences</h3>
-<p>The **content** and **border** areas are rarely confused. The former is the content of the element and the latter is its boundary. However, there is often a misunderstanding regarding the use of inner and outer indentation.</p>
-<p>Both properties (`padding` and `margin`) create empty space around the content of the elements which is why it is easy to confuse them or disregard the differences in their behavior. The difference is in the way gaps are created and used.</p>
-<p>Let's take a look at the three most important takeaways:</p>
-<table>
-<thead>
-<tr>
-  <th>Padding</th>
-  <th>Margin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Padding is the inner space of an element.</td>
-  <td>Margin is the outer space of an element.</td>
-</tr>
-<tr>
-  <td>The styling of an element affects the padding.</td>
-  <td>The styling of an element does not affect the margin.</td>
-</tr>
-<tr>
-  <td>It does not allow negative values.</td>
-  <td>It can have negative values.</td>
-</tr>
-</tbody>
-</table>
+
+### Summary of differences
+
+The **content** and **border** areas are rarely confused. The former is the content of the element and the latter is its boundary. However, there is often a misunderstanding regarding the use of inner and outer indentation.
+
+Both properties (`padding` and `margin`) create empty space around the content of the elements which is why it is easy to confuse them or disregard the differences in their behavior. The difference is in the way gaps are created and used.
+
+Let's take a look at the three most important takeaways:
+
+1. Padding is the inner space of an element, margin is outer space of an element.
+2. The styling of an element affects the padding, but not margin.
+3. Padding does not allow negative values, margin does.
+
+
 <p>If you need help distinguishing these areas, <a href="https://web.dev/learn/css/box-model/#a-useful-analogy">check out this handy analogy</a> by <a href="https://una.im/">Una Kravets</a>.</p>
 <p>Margin has two specific behaviors. Firstly, it is possible to use negative values; secondly, its vertical values merge in certain cases. This atypical behavior is called **margin collapsing**.</p>
 <h2 id="margin-collapsing">Margin collapsing</h2>

@@ -46,12 +46,16 @@ p {
   line-height: 1.466;
 }
 
-ul {
+ul, ol {
   line-height: 1.766;
 }
 
 code {
   color: chocolate;
+}
+
+figure {
+  margin: 0
 }
 
 
@@ -69,6 +73,7 @@ html.dark .header__logo {
 html.dark a {
   color: #5fa5ff;
 }
+
 h1 {
   font-size: 52px;
 }
