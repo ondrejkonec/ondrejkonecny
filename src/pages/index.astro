@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 const allPosts = await Astro.glob("../pages/blog/*/*md");
-allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate)); // sort blog posts by date
+allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate)); // sort blog post 
 const pageTitle = null;
 ---
 
@@ -14,12 +14,13 @@ const pageTitle = null;
       alt="photo of me from my wedding where I look happy"
     />
     <p class="lead">
-      Hey! I’m Ondřej, and I build software and enjoy exploring Web technologies.</p>
+      Hey! I’m Ondřej, and I build software and enjoy exploring Web technologies</p>
       <p>You can find me designing user interfaces or coding what I designed. This means that my work involves a
-      lot of HTML, CSS, and JavaScript (and its frameworks), but I&nbsp;also use design tools and methodologies.</p><p>I'm currently based in Prague, Czech
-      Republic and working remotely for&nbsp;<a href="https://www.cloudtalk.io/"
+      lot of HTML, CSS, and JavaScript (and its frameworks), but I&nbsp;also use design tools and methodologies. I'm currently based in Prague, Czech
+      Republic and working remotely for <a href="https://www.cloudtalk.io/"
         >CloudTalk</a
-      >. You can easily email me at <a href="mailto:ondrej.konecny@gmail.com"
+      >.</p>
+      <p>You can easily email me at <a href="mailto:ondrej.konecny@gmail.com"
         >ondrej.konecny@gmail.com</a
       > or&nbsp;get in touch via <a href="https://twitter.com/ondrejkonec">Twitter</a> or <a
         href="https://linkedin.com//in/ondrejkonec">LinkedIn</a
@@ -43,19 +44,20 @@ const pageTitle = null;
   }
   img {
     float: right;
-    width: 220px;
+    width: 264px;
     shape-outside: circle(calc(50% + 1rem));
     padding-left: 20px;
-    margin-right: -20px;
+    margin-right: -90px;
   }
   .lead {
     font-weight: 700;
-    line-height: 1.383;
-    font-size: 30px;
-    max-width: 600px;
+    line-height: 1.2383;
+    font-size: 38px;
+    max-width: 900px;
   }
   p {
+    font-size: 21px;
     hyphens: auto;
-    max-width: 600px;
+    max-width: 710px;
   }
 </style>

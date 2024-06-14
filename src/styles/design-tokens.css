@@ -30,10 +30,10 @@
 	/* Font Family */
 	--font-family-sans: 'Inter', sans-serif;
 	--font-family-code: monospace;
-	--font-family-system: '-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol';
+	--font-family-system: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 
   /* Font Size */
-  --font-size-default: 18px;
+  --font-size-default: 21px;
   /* Font Weight */
   /* Line Height */
   /* Letter Spacing */
