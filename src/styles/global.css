@@ -21,7 +21,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 21px; /* root font size */
+  font-size: var(--font-size-default); /* root font size */
   letter-spacing: -0.015em;
   scroll-behavior: smooth;
   counter-reset: figure;
