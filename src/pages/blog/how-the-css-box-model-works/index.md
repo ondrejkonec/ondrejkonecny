@@ -15,7 +15,7 @@ The basis of content distribution on the web is rooted in the box model. These r
 
 <figure>
 
-  ![Box model visual representation](./box-model.svg "Box model visual representation")
+  ![Box model visual representation](./images/box-model.svg "Box model visual representation")
   
   <figcaption>Visual representation and structure of the CSS Box Model as understood by the browser, which includes the content, padding, border and margin areas.</figcaption>
 </figure>
@@ -26,7 +26,7 @@ These areas are always part of every element, even if they are not defined in th
 
 <figure>
 
-![Box model detail](./box-model-detail.svg)
+![Box model detail](./images/box-model-detail.svg)
 
   <figcaption>Each HTML element consists of a Box Model, which has various properties that we can change in CSS.</figcaption>
 </figure>
@@ -37,7 +37,7 @@ Each area (except `content`) has all four sides defined, so it is possible to ma
 
 The content of the element (as well as the `border` and `padding`) is located inside each HTML element. It's the area where your content is displayed. It can be a text, an `image`, a `video`, or any other element in a document.
   
-  ![Box Model content](./box-model-content.svg "Box Model content")
+  ![Box Model content](./images/box-model-content.svg "Box Model content")
 
 <p>The content box is the area that the content lives in.</p>
 
@@ -62,7 +62,7 @@ The `content` CSS property replaces an element with a generated value, which  me
 
 Padding adds extra space between the content area and its border. It has the same background as the content itself.
 
-![Box Model - Padding](./box-model-padding.svg "Box Model - Padding")
+![Box Model - Padding](./images/box-model-padding.svg "Box Model - Padding")
 
 Padding has many notations that we can use.
 
@@ -92,7 +92,7 @@ We can change the values using `padding` and related properties such as `padding
 
 The element's border is located between the area of the inner edge (`padding`) and the outer edge (`margin`). Its appearance **can be adjusted** according to the designer's preferences.
 
-![Box Model - Border](./box-model-border.svg "Box Model - Border")
+![Box Model - Border](./images/box-model-border.svg "Box Model - Border")
 
 The border also has many definitions which can change its appearance.
 
@@ -124,7 +124,7 @@ The area of the outer margin expands the space around the element outside the bo
 
 <figure>
 
-![Box Model - Margin](./box-model-margin.svg "Box Model - Margin")
+![Box Model - Margin](./images/box-model-margin.svg "Box Model - Margin")
 
 The margin also **offers several options** for manipulating the layout.
 
@@ -184,11 +184,11 @@ This behavior is useful, for example, when designing a blog article containing v
 
 The edges merge when two vertical edges (top and bottom) come into contact. When the merge occurs, only the larger indent value is applied. Think of it as a duel of two outer edges, where **the bigger one wins**.
 
-![](./collapsing-1.svg "margin collapsing before merg")
+![](./images/collapsing-1.svg "margin collapsing before merg")
 
 If the offset values are the same for both of the elements, only one remains, or both values merge into one.
 
-![](./collapsing-1.svg "margin collapsing after merge")
+![](./images/collapsing-1.svg "margin collapsing after merge")
 
 ### Parent dominance
 
