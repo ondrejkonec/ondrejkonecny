@@ -5,6 +5,9 @@ title: 'The evolution of effective CSS writing'
 pubDate: 2020-08-29
 upDate: 2020-08-29
 description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
+image:
+    url: 'https://docs.astro.build/assets/arc.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["CSS", "front-end"]
 ---
 

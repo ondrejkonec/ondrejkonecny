@@ -5,6 +5,9 @@ title: 'Template'
 pubDate: 2022-01-01
 upDate: 2024-04-28
 description: 'Template Description'
+image:
+    url: 'https://docs.astro.build/assets/arc.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["CSS", "front-end"]
 ---
 

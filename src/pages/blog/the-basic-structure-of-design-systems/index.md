@@ -5,6 +5,9 @@ title: 'The basic structure of design systems'
 pubDate: 2021-02-14
 upDate: 2021-02-14
 description: 'Explanation of the design system and overview of its parts. When is it reasonable to think about creating a design system? And when, on the other hand, is it better to choose a different approach?'
+image:
+    url: 'https://docs.astro.build/assets/arc.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["CSS", "front-end"]
 ---
 

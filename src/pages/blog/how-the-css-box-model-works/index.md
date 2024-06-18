@@ -5,6 +5,9 @@ title: 'How the CSS box model works'
 pubDate: 2020-11-10
 upDate: 2020-11-10
 description: 'CSS Box Model is a fundamental concept that every developer dealing with web interface should be familiar with. In this article, I explain how the CSS Box Model works and what its pitfalls are.'
+image:
+    url: 'https://docs.astro.build/assets/arc.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["CSS", "front-end"]
 ---
 
