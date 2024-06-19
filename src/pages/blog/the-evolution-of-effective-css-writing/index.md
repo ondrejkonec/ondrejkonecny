@@ -16,12 +16,10 @@ tags: ["CSS", "front-end"]
 <p>In 1994, <strong>Håkon Wium Lie</strong> realized that there was a need to create a language that would create ways to visually edit documents on the web. The main idea was based on the need to separate the content from the presentation. Lie, together with other designers, created the first version of CSS, which over time was implemented by all browsers. After HTML, CSS became the second standardized language for W3.</p>
 <p>This <a href="http://1997.webhistory.org/www.lists/www-talk.1994q1/0648.html">archived e-mail communication shows</a> the origins of the idea of visual editing of HTML documents. As you can see, after pasting the same HTML, the content was displayed differently on two different browsers (Netscape and Mosaic). The developers of the Mosaic browser  decided to add an indent from above before the list (now known as an unordered list). They just thought it would look better. Everyone then perceived it as a bug and this resulted in the need to have control over how their content appeared on the web.</p>
 
-![ViolaWWW Browers](./violawww.png "ViolaWWW Browers")
+![ViolaWWW Browers](./images/violawww.png "ViolaWWW Browers")
+*Souce: Wikipedia*
 
-<figure>
-  <img src="violawww.png" alt="">
-  <figcaption>Source <a href="https://en.wikipedia.org/wiki/ViolaWWW" tabindex="-1">Wikipedia</a></figcaption>
-</figure>
+
 <p>In the mid-1990s, when the first websites began to appear, differentiating from the default browser display settings was a real challenge. At a time when cascading styles were still being tested, it was only possible to modify the design using HTML attributes. However, the first web browsers like <strong>ViolaWWW</strong> did not allow you to adjust the visual appearance almost at all.</p>
 <h2 id="what-came-before-css">What came before CSS</h2>
 <p>In the 1990s, website designers began to make the first attempts at what we now call web design. A common example of a 90's site is the <a href="https://www.spacejam.com/1996/">Space Jam site</a>. The site of the famous <strong>WarnerBros</strong> animated film is still online in its original state after 24 years; it is still possible to go through and explore it.</p>
