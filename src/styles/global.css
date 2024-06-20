@@ -26,6 +26,7 @@ html {
   scroll-behavior: smooth;
   counter-reset: figure;
   background-color: #fff;
+  color: #222;
 }
 
 body {
@@ -39,7 +40,10 @@ body {
 }
 
 a {
-  color: #004fb4
+  /* color: #004fb4 */
+  color: #222;
+  border-bottom: 1px solid rgba(119,119,119,0.25);
+  text-decoration: none;
 }
 
 p {
