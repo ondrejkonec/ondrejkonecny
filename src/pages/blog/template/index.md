@@ -20,12 +20,13 @@ console.log('Not highlighted')
 ```
 
 ```css
-	/* Font Family */
-	--font-family-sans: 'Inter', sans-serif;
-	--font-family-code: monospace;
-    .lol {
-        color: rgba(100,13,42)
-    }
+/* Font Family */
+--font-family-sans: 'Inter', sans-serif;
+--font-family-code: monospace;
+
+.lol {
+    color: rgba(100,13,42)
+}
 ```
 
 ```ts
