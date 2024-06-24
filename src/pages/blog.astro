@@ -1,18 +1,24 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPost from "../components/BlogPost.astro";
 
-const allPosts = await Astro.glob('../pages/blog/*/*md');
-allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate)); // sort blog posts by date
+const allPosts = await Astro.glob("../pages/blog/*/*md");
+allPosts.sort(
+  (a, b) =>
+    Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate)
+); // sort blog posts by date
 
-const pageTitle = "Blog"
+const pageTitle = "Blog";
 ---
 
-    <BaseLayout pageTitle={pageTitle}>
-    <p>This is place where I post sometime about stuff I am interested in.</p>
-    
-    <ul>
-      {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
-    </ul>
-    
-	</BaseLayout>
+<BaseLayout pageTitle={pageTitle}>
+  <p>This is place where I post sometime about stuff I am interested in.</p>
+
+  <ul>
+    {
+      allPosts.map((post) => (
+        <BlogPost url={post.url} title={post.frontmatter.title} />
+      ))
+    }
+  </ul>
+</BaseLayout>
