@@ -11,19 +11,6 @@ image:
 tags: ["CSS", "front-end"]
 ---
 
-<nav class="toc">
-<ol>
-  <li><a href="#history">History</a></li>
-  <li><a href="#what-is-a-design-system">What is a design system?</a></li>
-  <li><a href="#why-have-a-design-system">Why have a design system?</a></li>
-  <li><a href="#why-not-have-a-design-system">When is not needed?</a></li>
-  <li><a href="#what-is-inside-design-system">What is inside a design system?</a></li>
-  <li class="lvl-2"><a href="#style-guide">Style guide</a>
-  <li class="lvl-2"><a href="#component-library">Component library</a>
-  <li class="lvl-2"><a href="#pattern-library">Pattern library</a>
-  <li><a href="#wrapping-up">Wrapping up</a></li>
-</ol>
-</nav>
 <figure class="post__intro">
 <img src="intro.webp" alt="">
 <figcaption>First Edition Of The New York City Transit Authority Graphics Standards Manual</figcaption>
