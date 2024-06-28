@@ -1,10 +1,10 @@
 ---
 layout: ../../../layouts/MarkdownPostLayout.astro
 
-title: 'The evolution of effective CSS writing'
+title: 'The Evolution of CSS Efficiency'
 pubDate: 2020-08-29
-upDate: 2020-08-29
-description: 'In this article, you will find a very brief overview of the development, a description of the most common problems and the onset of techniques that are designed to solve them.'
+upDate: 2024-06-21
+description: "Ever wonder what existed before CSS and what made styling web pages so cumbersome? Let's dive into the history and evolution of CSS."
 image:
     url: 'https://docs.astro.build/assets/arc.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
