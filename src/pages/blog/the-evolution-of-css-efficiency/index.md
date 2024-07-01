@@ -23,7 +23,7 @@ As you can see below, browsers like Netscape and Mosaic displayed the same HTML 
 In the mid-90s, as web pages started to emerge, altering default browser settings was tricky. When cascading styles were still being tested, the only way to adjust the appearance was through HTML attributes. Early browsers like ViolaWWW barely allowed for visual customization.
 
 ![](./images/ViolaWWW-browser.png)
-*browser ViolaWWW — source: [Wikipedie](https://en.wikipedia.org/wiki/ViolaWWW)*
+*ViolaWWW — source: [Wikipedie](https://en.wikipedia.org/wiki/ViolaWWW)*
 ## Web Design Before CSS
 Gradually, website creators started experimenting with what we know today as web design. A classic example is the Space Jam website from 1996.
 

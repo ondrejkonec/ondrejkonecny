@@ -187,7 +187,7 @@ This behavior is useful, for example, when designing a blog article containing v
 
 The edges merge when two vertical edges (top and bottom) come into contact. When the merge occurs, only the larger indent value is applied. Think of it as a duel of two outer edges, where **the bigger one wins**.
 
-![](./images/collapsing-1.svg "margin collapsing before merg")
+![](./images/collapsing-1.svg "margin collapsing before merge")
 
 If the offset values are the same for both of the elements, only one remains, or both values merge into one.
 

@@ -11,8 +11,6 @@ image:
 tags: ["CSS", "front-end", "CSS methodology"]
 ---
 
-<figure>
-
 It's 2023 and we have a lot of methods and techniques that make CSS writing better and easier. However, there is one method that was one of the first to tackle object-oriented CSS writing and lay a solid foundation for other frameworks that followed.
 
 This method is called [Object Oriented CSS](http://oocss.org/) (OOCSS) and, in this article, I will describe the basic principles and ideas of this methodology.

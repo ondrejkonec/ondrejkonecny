@@ -2,9 +2,11 @@
 import BaseLayout from './BaseLayout.astro';
 
 const { frontmatter } = Astro.props;
+const { minutesRead } = Astro.props.frontmatter;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
+<p>{minutesRead}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
 <p>Updated on: {frontmatter.upDate.slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
