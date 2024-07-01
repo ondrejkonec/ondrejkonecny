@@ -36,7 +36,7 @@ It was therefore a major influence on the development of modern graphic design, 
 A design system is a set of outputs from various design areas that are needed for consistent and sustainable creation. It constantly evolves with the product, tools, and technologies used. Their nature is that they embed design building blocks into teams and workflows to create consistent user experiences.
 
 ![](./images/design-system.png)
-Picture from the Jan Toman's article – source: [www.medium.com](https://medium.com/productunicorn/design-systems-style-guides-all-those-libraries-what-the-hell-is-the-difference-4c2741193fdc)
+*Picture from the Jan Toman's article – source: [www.medium.com](https://medium.com/productunicorn/design-systems-style-guides-all-those-libraries-what-the-hell-is-the-difference-4c2741193fdc)*
 
 
 It is therefore the embodiment of a system of concepts with a clear structure and meaning, which are in one place and are mostly driven by the whole team.
