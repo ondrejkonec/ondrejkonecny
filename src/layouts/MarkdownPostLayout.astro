@@ -6,7 +6,7 @@ const { minutesRead } = Astro.props.frontmatter;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-<p>{minutesRead}</p>
+<p class="reading-time">{minutesRead}</p>
 <p>Published on: {frontmatter.pubDate.slice(0,10)}</p>
 <p>Updated on: {frontmatter.upDate.slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
@@ -36,5 +36,12 @@ const { minutesRead } = Astro.props.frontmatter;
     padding: .5em 1em;
     background-color: #F8FCFD;
     text-decoration: none;
+  }
+  .reading-time {
+    background-color: #f3f2f4;
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-flex;
+    font-size: 13px;
   }
 </style>
