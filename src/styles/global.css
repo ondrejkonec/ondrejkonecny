@@ -30,7 +30,6 @@ html {
 
 body {
   font-family: var(--font-family-system);
-
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -64,6 +63,21 @@ img {
 }
 
 /* NEED REFACTOR */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 14px;
+  margin: 0.25em;
+  border: solid 1px #a1a1a1;
+  border-radius: .5em;
+  padding: .5em 1em;
+  background-color: #F8FCFD;
+  text-decoration: none;
+}
 
 html.dark {
   background-color: #0d0950;
