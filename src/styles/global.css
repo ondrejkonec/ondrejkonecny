@@ -79,19 +79,6 @@ img {
   text-decoration: none;
 }
 
-html.dark {
-  background-color: #0d0950;
-  color: #fff;
-}
-html.dark .nav__item,
-html.dark .settings svg,
-html.dark .header__logo {
-  color: #fff!important;
-}
-html.dark a {
-  color: #5fa5ff;
-}
-
 h1 {
   font-size: 52px;
   line-height: 1.1;
@@ -111,6 +98,20 @@ h5 {
 
 @media screen and (min-width: 636px) {
 
+}
+
+/* Dark Mode POC */
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+html.dark .nav__item,
+html.dark .settings svg,
+html.dark .header__logo {
+  color: #fff!important;
+}
+html.dark a {
+  color: #5fa5ff;
 }
 
 /* ========================================================================= *\
