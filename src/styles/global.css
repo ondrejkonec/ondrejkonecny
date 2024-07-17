@@ -96,10 +96,6 @@ h5 {
   font-size: 25px
 }
 
-@media screen and (min-width: 636px) {
-
-}
-
 /* Dark Mode POC */
 html.dark {
   background-color: #0d0950;
