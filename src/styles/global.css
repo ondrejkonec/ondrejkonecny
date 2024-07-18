@@ -79,23 +79,6 @@ img {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 52px;
-  line-height: 1.1;
-}
-h2 {
-  font-size: 44px
-}
-h3 {
-  font-size: 36px
-}
-h4 {
-  font-size: 30px
-}
-h5 {
-  font-size: 25px
-}
-
 /* Dark Mode POC */
 html.dark {
   background-color: #0d0950;
