@@ -4,9 +4,11 @@
 
 <footer class="footer">
   <div class="footer__wrapper">
-    <!-- <nav class="footer__nav" aria-label="More on this site">
+    <nav class="footer__nav" aria-label="More on this site">
       <a class="footer__link" href="/books/">Books</a>
-    </nav> -->
+      <a class="footer__link" href="/places/">Places</a>
+      <a class="footer__link" href="/people/">People</a>
+    </nav>
     <div class="footer__content">
       <p class="footer__info">
         2018–2024 © Ondřej Konečný
@@ -38,6 +40,12 @@
     max-width: 1200px;
     width: 750px;
     margin-inline: auto;
+  }
+  .footer__nav {
+    display: flex;
+    gap: .875rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(64, 64, 64);
   }
   .footer__content {
     display: flex;
